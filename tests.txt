@@ -1,37 +1,32 @@
-### Test 1: to'g'ri amallar (+ - * / %)
 === Siklli kalkulyator (chiqish uchun istalgan so'rovda q kiriting) ===
 
 Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: 10 + 3 = 13
-[%p] natija o'zgaruvchisi manzili: 0x7ffd80379848
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: 10 - 3 = 7
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: 10 * 3 = 30
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: 10 / 4 = 2.5
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
 
 Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: 10 % 4 = 2
-[%p] natija o'zgaruvchisi manzili: 0x7ffd80379848
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
 
-Birinchi sonni kiriting: 
-Dastur tugadi.
-
-### Test 2: kasr va manfiy sonlar
-=== Siklli kalkulyator (chiqish uchun istalgan so'rovda q kiriting) ===
-
-Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: -2.5 * 4 = -10
-[%p] natija o'zgaruvchisi manzili: 0x7ffedcd14f08
-
-Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: -7 / 2 = -3.5
-[%p] natija o'zgaruvchisi manzili: 0x7ffedcd14f08
-
-Birinchi sonni kiriting: 
-Dastur tugadi.
-
-### Test 3 (xato): nolga bo'lish, harf, noma'lum amal
-=== Siklli kalkulyator (chiqish uchun istalgan so'rovda q kiriting) ===
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Xato: nolga bo'lish mumkin emas.
 
 Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Xato: nolga bo'lish mumkin emas.
 
 Birinchi sonni kiriting: Xato: "abc" son emas. Qaytadan kiriting (chiqish uchun q).
 
 Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Xato: "^" noma'lum amal. Faqat + - * / % ruxsat etiladi.
-Amalni kiriting (+ - * / %): Natija: 3 - 4 = -1
-[%p] natija o'zgaruvchisi manzili: 0x7fff63faec08
+Amalni kiriting (+ - * / %): Natija: 7 / 2 = 3.5
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: Amalni kiriting (+ - * / %): Natija: 8 / 2 = 4
+[%p] natija o'zgaruvchisi manzili: 0x7ffc14e055f8
 
 Birinchi sonni kiriting: 
 Dastur tugadi.

@@ -9,7 +9,7 @@
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
 # 33 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 3 4
 # 1 "/usr/include/features.h" 1 3 4
-# 394 "/usr/include/features.h" 3 4
+# 431 "/usr/include/features.h" 3 4
 # 1 "/usr/include/features-time64.h" 1 3 4
 # 20 "/usr/include/features-time64.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
@@ -19,21 +19,21 @@
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
 # 20 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 2 3 4
 # 22 "/usr/include/features-time64.h" 2 3 4
-# 395 "/usr/include/features.h" 2 3 4
-# 502 "/usr/include/features.h" 3 4
+# 432 "/usr/include/features.h" 2 3 4
+# 539 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
-# 576 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
+# 730 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 577 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 731 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
-# 578 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 503 "/usr/include/features.h" 2 3 4
-# 526 "/usr/include/features.h" 3 4
+# 732 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 540 "/usr/include/features.h" 2 3 4
+# 563 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
 # 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
 # 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
-# 527 "/usr/include/features.h" 2 3 4
+# 564 "/usr/include/features.h" 2 3 4
 # 34 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 2 3 4
 # 29 "/usr/include/stdio.h" 2 3 4
 
@@ -41,18 +41,22 @@
 
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
-# 214 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 3 4
 
-# 214 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 3 4
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h" 1 3 4
+# 229 "/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h" 3 4
+
+# 229 "/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h" 3 4
 typedef long unsigned int size_t;
-# 35 "/usr/include/stdio.h" 2 3 4
+# 39 "/usr/include/stdio.h" 2 3 4
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h" 1 3 4
-# 40 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 38 "/usr/include/stdio.h" 2 3 4
+# 42 "/usr/include/stdio.h" 2 3 4
 
 # 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
 # 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
@@ -186,7 +190,7 @@ typedef unsigned int __socklen_t;
 
 
 typedef int __sig_atomic_t;
-# 40 "/usr/include/stdio.h" 2 3 4
+# 44 "/usr/include/stdio.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 1 3 4
 
 
@@ -213,7 +217,7 @@ typedef struct _G_fpos_t
   __off_t __pos;
   __mbstate_t __state;
 } __fpos_t;
-# 41 "/usr/include/stdio.h" 2 3 4
+# 45 "/usr/include/stdio.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 1 3 4
 # 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 3 4
 typedef struct _G_fpos64_t
@@ -221,14 +225,14 @@ typedef struct _G_fpos64_t
   __off64_t __pos;
   __mbstate_t __state;
 } __fpos64_t;
-# 42 "/usr/include/stdio.h" 2 3 4
+# 46 "/usr/include/stdio.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/__FILE.h" 1 3 4
 
 
 
 struct _IO_FILE;
 typedef struct _IO_FILE __FILE;
-# 43 "/usr/include/stdio.h" 2 3 4
+# 47 "/usr/include/stdio.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" 1 3 4
 
 
@@ -237,9 +241,12 @@ struct _IO_FILE;
 
 
 typedef struct _IO_FILE FILE;
-# 44 "/usr/include/stdio.h" 2 3 4
+# 48 "/usr/include/stdio.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 1 3 4
 # 35 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 36 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 2 3 4
+
 struct _IO_FILE;
 struct _IO_marker;
 struct _IO_codecvt;
@@ -278,7 +285,9 @@ struct _IO_FILE
   struct _IO_FILE *_chain;
 
   int _fileno;
-  int _flags2;
+  int _flags2:24;
+
+  char _short_backupbuf[1];
   __off_t _old_offset;
 
 
@@ -300,12 +309,19 @@ struct _IO_FILE
   struct _IO_wide_data *_wide_data;
   struct _IO_FILE *_freeres_list;
   void *_freeres_buf;
-  size_t __pad5;
+  struct _IO_FILE **_prevchain;
   int _mode;
 
-  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+  int _unused3;
+
+  __uint64_t _total_written;
+
+
+
+
+  char _unused2[12 * sizeof (int) - 5 * sizeof (void *)];
 };
-# 45 "/usr/include/stdio.h" 2 3 4
+# 49 "/usr/include/stdio.h" 2 3 4
 
 
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 1 3 4
@@ -345,16 +361,16 @@ typedef struct _IO_cookie_io_functions_t
   cookie_seek_function_t *seek;
   cookie_close_function_t *close;
 } cookie_io_functions_t;
-# 48 "/usr/include/stdio.h" 2 3 4
+# 52 "/usr/include/stdio.h" 2 3 4
 
 
 
 
 
 typedef __gnuc_va_list va_list;
-# 64 "/usr/include/stdio.h" 3 4
+# 68 "/usr/include/stdio.h" 3 4
 typedef __off_t off_t;
-# 78 "/usr/include/stdio.h" 3 4
+# 82 "/usr/include/stdio.h" 3 4
 typedef __ssize_t ssize_t;
 
 
@@ -363,10 +379,10 @@ typedef __ssize_t ssize_t;
 
 
 typedef __fpos_t fpos_t;
-# 129 "/usr/include/stdio.h" 3 4
+# 133 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
-# 130 "/usr/include/stdio.h" 2 3 4
-# 149 "/usr/include/stdio.h" 3 4
+# 134 "/usr/include/stdio.h" 2 3 4
+# 153 "/usr/include/stdio.h" 3 4
 extern FILE *stdin;
 extern FILE *stdout;
 extern FILE *stderr;
@@ -384,19 +400,19 @@ extern int rename (const char *__old, const char *__new) __attribute__ ((__nothr
 
 extern int renameat (int __oldfd, const char *__old, int __newfd,
        const char *__new) __attribute__ ((__nothrow__ , __leaf__));
-# 184 "/usr/include/stdio.h" 3 4
+# 191 "/usr/include/stdio.h" 3 4
 extern int fclose (FILE *__stream) __attribute__ ((__nonnull__ (1)));
-# 194 "/usr/include/stdio.h" 3 4
+# 201 "/usr/include/stdio.h" 3 4
 extern FILE *tmpfile (void)
   __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
-# 211 "/usr/include/stdio.h" 3 4
+# 218 "/usr/include/stdio.h" 3 4
 extern char *tmpnam (char[20]) __attribute__ ((__nothrow__ , __leaf__)) ;
 
 
 
 
 extern char *tmpnam_r (char __s[20]) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 228 "/usr/include/stdio.h" 3 4
+# 235 "/usr/include/stdio.h" 3 4
 extern char *tempnam (const char *__dir, const char *__pfx)
    __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (__builtin_free, 1)));
 
@@ -406,9 +422,9 @@ extern char *tempnam (const char *__dir, const char *__pfx)
 
 
 extern int fflush (FILE *__stream);
-# 245 "/usr/include/stdio.h" 3 4
+# 252 "/usr/include/stdio.h" 3 4
 extern int fflush_unlocked (FILE *__stream);
-# 264 "/usr/include/stdio.h" 3 4
+# 271 "/usr/include/stdio.h" 3 4
 extern FILE *fopen (const char *__restrict __filename,
       const char *__restrict __modes)
   __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
@@ -419,7 +435,7 @@ extern FILE *fopen (const char *__restrict __filename,
 extern FILE *freopen (const char *__restrict __filename,
         const char *__restrict __modes,
         FILE *__restrict __stream) __attribute__ ((__nonnull__ (3)));
-# 299 "/usr/include/stdio.h" 3 4
+# 306 "/usr/include/stdio.h" 3 4
 extern FILE *fdopen (int __fd, const char *__modes) __attribute__ ((__nothrow__ , __leaf__))
   __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
 
@@ -443,7 +459,7 @@ extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
 
 extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __attribute__ ((__nothrow__ , __leaf__))
   __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
-# 334 "/usr/include/stdio.h" 3 4
+# 341 "/usr/include/stdio.h" 3 4
 extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__))
   __attribute__ ((__nonnull__ (1)));
 
@@ -548,23 +564,26 @@ extern int sscanf (const char *__restrict __s,
 
 
 # 1 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 1 3 4
-# 119 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
+# 131 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 1 3 4
 # 24 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
 # 25 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 2 3 4
-# 120 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4
-# 438 "/usr/include/stdio.h" 2 3 4
-# 463 "/usr/include/stdio.h" 3 4
-extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf")
+# 132 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4
+# 445 "/usr/include/stdio.h" 2 3 4
+
+
+
+
+extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc23_fscanf")
 
                                 __attribute__ ((__nonnull__ (1)));
-extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf")
+extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc23_scanf")
                               ;
-extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) __asm__ ("" "__isoc99_sscanf") __attribute__ ((__nothrow__ , __leaf__))
+extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) __asm__ ("" "__isoc23_sscanf") __attribute__ ((__nothrow__ , __leaf__))
 
                       ;
-# 490 "/usr/include/stdio.h" 3 4
+# 497 "/usr/include/stdio.h" 3 4
 extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
       __gnuc_va_list __arg)
      __attribute__ ((__format__ (__scanf__, 2, 0))) __attribute__ ((__nonnull__ (1)));
@@ -580,21 +599,26 @@ extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
 extern int vsscanf (const char *__restrict __s,
       const char *__restrict __format, __gnuc_va_list __arg)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 540 "/usr/include/stdio.h" 3 4
-extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
+
+
+
+
+
+
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vfscanf")
 
 
 
      __attribute__ ((__format__ (__scanf__, 2, 0))) __attribute__ ((__nonnull__ (1)));
-extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vscanf")
 
      __attribute__ ((__format__ (__scanf__, 1, 0))) ;
-extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vsscanf") __attribute__ ((__nothrow__ , __leaf__))
+extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vsscanf") __attribute__ ((__nothrow__ , __leaf__))
 
 
 
      __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 575 "/usr/include/stdio.h" 3 4
+# 582 "/usr/include/stdio.h" 3 4
 extern int fgetc (FILE *__stream) __attribute__ ((__nonnull__ (1)));
 extern int getc (FILE *__stream) __attribute__ ((__nonnull__ (1)));
 
@@ -611,9 +635,15 @@ extern int getchar (void);
 
 extern int getc_unlocked (FILE *__stream) __attribute__ ((__nonnull__ (1)));
 extern int getchar_unlocked (void);
-# 600 "/usr/include/stdio.h" 3 4
+# 607 "/usr/include/stdio.h" 3 4
 extern int fgetc_unlocked (FILE *__stream) __attribute__ ((__nonnull__ (1)));
-# 611 "/usr/include/stdio.h" 3 4
+
+
+
+
+
+
+
 extern int fputc (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
 extern int putc (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
 
@@ -622,7 +652,7 @@ extern int putc (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
 
 
 extern int putchar (int __c);
-# 627 "/usr/include/stdio.h" 3 4
+# 631 "/usr/include/stdio.h" 3 4
 extern int fputc_unlocked (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
 
 
@@ -652,18 +682,13 @@ extern int putw (int __w, FILE *__stream) __attribute__ ((__nonnull__ (2)));
 
 extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
      __attribute__ ((__access__ (__write_only__, 1, 2))) __attribute__ ((__nonnull__ (3)));
-# 694 "/usr/include/stdio.h" 3 4
+# 693 "/usr/include/stdio.h" 3 4
 extern __ssize_t __getdelim (char **__restrict __lineptr,
                              size_t *__restrict __n, int __delimiter,
                              FILE *__restrict __stream) __attribute__ ((__nonnull__ (4)));
 extern __ssize_t getdelim (char **__restrict __lineptr,
                            size_t *__restrict __n, int __delimiter,
                            FILE *__restrict __stream) __attribute__ ((__nonnull__ (4)));
-
-
-
-
-
 
 
 extern __ssize_t getline (char **__restrict __lineptr,
@@ -706,7 +731,7 @@ extern size_t fread (void *__restrict __ptr, size_t __size,
 
 extern size_t fwrite (const void *__restrict __ptr, size_t __size,
         size_t __n, FILE *__restrict __s) __attribute__ ((__nonnull__ (4)));
-# 766 "/usr/include/stdio.h" 3 4
+# 760 "/usr/include/stdio.h" 3 4
 extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
          size_t __n, FILE *__restrict __stream)
   __attribute__ ((__nonnull__ (4)));
@@ -732,7 +757,7 @@ extern long int ftell (FILE *__stream) __attribute__ ((__nonnull__ (1)));
 
 
 extern void rewind (FILE *__stream) __attribute__ ((__nonnull__ (1)));
-# 803 "/usr/include/stdio.h" 3 4
+# 797 "/usr/include/stdio.h" 3 4
 extern int fseeko (FILE *__stream, __off_t __off, int __whence)
   __attribute__ ((__nonnull__ (1)));
 
@@ -740,7 +765,7 @@ extern int fseeko (FILE *__stream, __off_t __off, int __whence)
 
 
 extern __off_t ftello (FILE *__stream) __attribute__ ((__nonnull__ (1)));
-# 829 "/usr/include/stdio.h" 3 4
+# 823 "/usr/include/stdio.h" 3 4
 extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos)
   __attribute__ ((__nonnull__ (1)));
 
@@ -748,7 +773,7 @@ extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos)
 
 
 extern int fsetpos (FILE *__stream, const fpos_t *__pos) __attribute__ ((__nonnull__ (1)));
-# 860 "/usr/include/stdio.h" 3 4
+# 854 "/usr/include/stdio.h" 3 4
 extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 
 extern int feof (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
@@ -778,7 +803,7 @@ extern int fileno (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) __at
 
 
 extern int fileno_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-# 897 "/usr/include/stdio.h" 3 4
+# 891 "/usr/include/stdio.h" 3 4
 extern int pclose (FILE *__stream) __attribute__ ((__nonnull__ (1)));
 
 
@@ -795,7 +820,7 @@ extern FILE *popen (const char *__command, const char *__modes)
 
 extern char *ctermid (char *__s) __attribute__ ((__nothrow__ , __leaf__))
   __attribute__ ((__access__ (__write_only__, 1)));
-# 941 "/usr/include/stdio.h" 3 4
+# 935 "/usr/include/stdio.h" 3 4
 extern void flockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 
 
@@ -804,10 +829,10 @@ extern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)
 
 
 extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-# 959 "/usr/include/stdio.h" 3 4
+# 953 "/usr/include/stdio.h" 3 4
 extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
-# 983 "/usr/include/stdio.h" 3 4
+# 977 "/usr/include/stdio.h" 3 4
 
 # 2 "hello.c" 2
 
